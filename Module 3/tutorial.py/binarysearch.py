@@ -1,8 +1,8 @@
 #User function template for Python
 
 class Solution:	
-	def binarysearch(self, arr, n, k):
-		left = 0
+    def binarysearch(self, arr, n, k):
+        left= 0
         right = n - 1
 
         while left <= right:
